@@ -5,10 +5,25 @@
   </head>
 <body>
   <a-scene>
-  <a-assets>
-    <a-asset-item id="tree" src="path/as.dae"></a-asset-item>
-  </a-assets>
-  <a-entity collada-model="#tree"></a-entity>
+
+   <a-assets>
+
+        <a-asset-item id="box" src="path/box.dae"></a-asset-item>
+
+   </a-assets>
+
+   <a-entity id="collada" collada-model="#box"></a-entity>
+
+       <a-entity id="cmr" position="0 1 5" rotation="0 0 0">
+
+         <a-camera> 
+
+           <a-cursor color="#2E3A87" >
+
+         </a-camera>
+
+       </a-entity> 
+
 </a-scene>
 </body>
     
