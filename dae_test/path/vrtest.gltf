@@ -1,0 +1,46 @@
+{
+    "accessors": {},
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@cf6371beb0bdc18ba603378d5e40c966da53d385",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_2": {
+            "buffer": "vrtest",
+            "byteLength": 0,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_3": {
+            "buffer": "vrtest",
+            "byteLength": 0,
+            "byteOffset": 0,
+            "target": 34962
+        }
+    },
+    "buffers": {},
+    "images": {
+        "file1-image": {
+            "name": "file1",
+            "uri": "/Users/rex2016/Desktop/REX/%E8%AB%96%E8%AB%96%E8%A8%80/2017%E8%AB%96%E6%96%87/glrtf/miku-xiaomi.jpg"
+        },
+        "file2-image": {
+            "name": "file2",
+            "uri": "/Users/rex2016/Desktop/REX/%E8%AB%96%E8%AB%96%E8%A8%80/2017%E8%AB%96%E6%96%87/glrtf/nazar-noschenko-tina-ready.jpg"
+        },
+        "file3-image": {
+            "name": "file3",
+            "uri": "/Users/rex2016/Desktop/REX/%E8%AB%96%E8%AB%96%E8%A8%80/2017%E8%AB%96%E6%96%87/glrtf/miku-xiaomi.jpg"
+        }
+    },
+    "materials": {},
+    "meshes": {},
+    "nodes": {},
+    "skins": {}
+}
