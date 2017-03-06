@@ -10,20 +10,14 @@
     <script src="https://dongrogers.github.io/theboatpeople/mountain.js"> </script>
   </head>
   <body>
-
     <a-scene fog="type: exponential; color:black">
       <a-collada-model src="model/boat.dae"> </a-collada-model>
-
+      <a-collada-model  src="model/ricehat.dae"> </a-collada-model> 
       <a-camera far="5000">
-      <a-collada-model  src="model/ricehat.dae"> </a-collada-model>
       </a-camera>
-
- 
       <a-mountain position="1 10 -120"; material="standard" visible="true"> </a-mountain>
         <a-entity id="sky" geometry="primitive: sphere; radius: 1200;"
                material="reileigh:2.2; shader: sky; side: back" sun-position-setter></a-entity>
-
-
       <a-ocean material="opacity:0.8; color:#03526C; flatShading:true" opacity="0" width="250" depth="250" position="0 .2 0" density="150" speed="10"></a-ocean>
      </a-scene>
   </body>
