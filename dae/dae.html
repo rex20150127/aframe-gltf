@@ -12,9 +12,12 @@
   <body>
 
     <a-scene fog="type: exponential; color:black">
-      <a-collada-model src="model/ricehat.dae"> </a-collada-model>
+      <a-collada-model src="model/boat.dae"> </a-collada-model>
 
-      <a-collada-model  src="model/model/boat.dae"> </a-collada-model>
+      <a-camera far="5000">
+      <a-collada-model  src="model/ricehat.dae"> </a-collada-model>
+      </a-camera>
+
  
       <a-mountain position="1 10 -120"; material="standard" visible="true"> </a-mountain>
         <a-entity id="sky" geometry="primitive: sphere; radius: 1200;"
@@ -25,5 +28,3 @@
      </a-scene>
   </body>
 </html>
-
-
