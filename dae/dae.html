@@ -10,9 +10,10 @@
     <script src="https://dongrogers.github.io/theboatpeople/mountain.js"> </script>
   </head>
   <body>
+     <img id="my-texture" src="nazar-noschenko-tina-ready.jpg">
     <a-scene fog="type: exponential; color:black">
-      <a-collada-model src="model/boat.dae"> </a-collada-model>
-      <a-collada-model  src="model/ricehat.dae"> </a-collada-model> 
+      <a-collada-model src="model/boat.dae" material="src: #my-texture"> </a-collada-model>
+      <a-collada-model  src="model/ricehat.dae" material="src: #my-texture"> </a-collada-model> 
       
       <a-mountain position="1 10 -120"; material="standard" visible="true"> </a-mountain>
         <a-entity id="sky" geometry="primitive: sphere; radius: 1200;"
