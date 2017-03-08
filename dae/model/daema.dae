@@ -2,8 +2,8 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-03-07T16:13:37Z</created><keywords></keywords><modified>2017-03-07T16:13:37Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
   <library_images>
-    <image id="file2-image" name="file2nazar-noschenko-tina-ready.jpg"></image>
-    <image id="file1-image" name="file1">nazar-noschenko-tina-ready.jpg</image>
+    <image id="file2-image" name="file2"><init_from>nazar-noschenko-tina-ready.jpg</init_from></image>
+    <image id="file1-image" name="file1"><init_from>model/nazar-noschenko-tina-ready.jpg</init_from></image>
   </library_images>
   <library_materials>
     <material id="lambert2" name="lambert2">
