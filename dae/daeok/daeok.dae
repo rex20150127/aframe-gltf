@@ -9,7 +9,7 @@
         <up_axis>Z_UP</up_axis></asset>
   <library_images>
     <image id="file1-image">
-      <init_from>tex.png</init_from>
+      <init_from>pic/tex.png</init_from>
     </image>
   </library_images>
   <library_materials>
