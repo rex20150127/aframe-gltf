@@ -2,7 +2,7 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   
   <library_images>
-    <image id="file1-image" name="file1"><init_from>pic/tex.png</init_from></image>
+    <image id="file1-image" name="file1"><init_from>file:///pic/dae/tex.png</init_from></image>
   </library_images>
   <library_materials>
     <material id="blinn3" name="blinn3">
