@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
-  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-03-09T02:40:51Z</created><keywords></keywords><modified>2017-03-09T02:40:51Z</modified><revision></revision><subject></subject><title></title><unit meter="0.025400" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <asset><contributor>
+        <authoring_tool>SketchUp 15.0.9350</authoring_tool>
+        </contributor>
+        <created>2016-09-20T15:23:32Z</created>
+        <modified>2016-09-20T15:23:32Z</modified>
+        <unit meter="0.0254" name="inch" />
+        <up_axis>Z_UP</up_axis></asset>
   <library_images>
     <image id="file1-image">
       <init_from>tex.png</init_from>
