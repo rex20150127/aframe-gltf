@@ -11,10 +11,10 @@
     </asset>
     <library_images>
         <image id="ID13">
-            <init_from>pic/tex.png</init_from>
+            <init_from>tex/tex.png</init_from>
         </image>
         <image id="ID20">
-            <init_from>pic/tex.png</init_from>
+            <init_from>tex/tex.png</init_from>
         </image>
     </library_images>
     <library_effects>
