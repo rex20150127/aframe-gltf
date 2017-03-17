@@ -1,0 +1,988 @@
+{
+    "accessors": {
+        "accessor_buffer_Cylinder_0": {
+            "bufferView": "bufferView_buffer_Cylinder_0",
+            "byteOffset": 0,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 192,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cylinder_1": {
+            "bufferView": "bufferView_buffer_Cylinder_0",
+            "byteOffset": 12,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 192,
+            "max": [
+                0.9951847195625305,
+                0.9951847791671753,
+                1.0
+            ],
+            "min": [
+                -0.9951847791671753,
+                -0.9951847195625305,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cylinder_2": {
+            "bufferView": "bufferView_buffer_Cylinder_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 372,
+            "max": [
+                191
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Grid_0": {
+            "bufferView": "bufferView_buffer_Grid_0",
+            "byteOffset": 0,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 148,
+            "max": [
+                1.0,
+                1.0,
+                0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Grid_1": {
+            "bufferView": "bufferView_buffer_Grid_0",
+            "byteOffset": 12,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 148,
+            "max": [
+                0,
+                0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.9999999403953552
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Grid_2": {
+            "bufferView": "bufferView_buffer_Grid_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 486,
+            "max": [
+                147
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_IcosphereAction_time_0": {
+            "bufferView": "bufferView_buffer_IcosphereAction_time_0",
+            "byteOffset": 0,
+            "byteStride": 4,
+            "componentType": 5126,
+            "count": 100,
+            "max": [
+                4.124999999999995
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere_0": {
+            "bufferView": "bufferView_buffer_Icosphere_0",
+            "byteOffset": 0,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 240,
+            "max": [
+                1.2253113985061646,
+                1.9112317562103271,
+                1.260350227355957
+            ],
+            "min": [
+                -0.6768043041229248,
+                -0.0887681245803833,
+                -0.7396497130393982
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere_1": {
+            "bufferView": "bufferView_buffer_Icosphere_0",
+            "byteOffset": 12,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 240,
+            "max": [
+                0.9920773506164551,
+                0.9435216188430786,
+                0.9435238838195801
+            ],
+            "min": [
+                -0.9920774102210999,
+                -0.9435215592384338,
+                -0.9435238242149353
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere_2": {
+            "bufferView": "bufferView_buffer_Icosphere_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 240,
+            "max": [
+                239
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere_IcosphereAction_0": {
+            "bufferView": "bufferView_buffer_Icosphere_IcosphereAction_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 100,
+            "max": [
+                0,
+                0,
+                2.377476930618286
+            ],
+            "min": [
+                -6.423705101013184,
+                -1.239048957824707,
+                2.377476930618286
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere_IcosphereAction_1": {
+            "bufferView": "bufferView_buffer_Icosphere_IcosphereAction_1",
+            "byteOffset": 0,
+            "byteStride": 16,
+            "componentType": 5126,
+            "count": 100,
+            "max": [
+                0,
+                0,
+                0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        "accessor_buffer_Icosphere_IcosphereAction_2": {
+            "bufferView": "bufferView_buffer_Icosphere_IcosphereAction_2",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 100,
+            "max": [
+                1.5052348375320435,
+                1.5052348375320435,
+                1.5052348375320435
+            ],
+            "min": [
+                1.5052348375320435,
+                1.5052348375320435,
+                1.5052348375320435
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Sphere_0": {
+            "bufferView": "bufferView_buffer_Sphere_0",
+            "byteOffset": 0,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 1984,
+            "max": [
+                1.000000238418579,
+                0.9999991655349731,
+                1.0
+            ],
+            "min": [
+                -0.9999998211860657,
+                -1.0000003576278687,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Sphere_1": {
+            "bufferView": "bufferView_buffer_Sphere_0",
+            "byteOffset": 12,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 1984,
+            "max": [
+                0.9904382824897766,
+                0.9904387593269348,
+                0.9951386451721191
+            ],
+            "min": [
+                -0.9904382824897766,
+                -0.9904382824897766,
+                -0.9951385259628296
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Sphere_2": {
+            "bufferView": "bufferView_buffer_Sphere_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 2880,
+            "max": [
+                1983
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Torus_0": {
+            "bufferView": "bufferView_buffer_Torus_0",
+            "byteOffset": 0,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 2304,
+            "max": [
+                1.25,
+                1.2500001192092896,
+                0.25
+            ],
+            "min": [
+                -1.25,
+                -1.2500001192092896,
+                -0.25
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Torus_1": {
+            "bufferView": "bufferView_buffer_Torus_0",
+            "byteOffset": 12,
+            "byteStride": 24,
+            "componentType": 5126,
+            "count": 2304,
+            "max": [
+                0.9639959931373596,
+                0.9639959335327148,
+                0.9657869935035706
+            ],
+            "min": [
+                -0.9639959931373596,
+                -0.9639959335327148,
+                -0.9657870531082153
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Torus_2": {
+            "bufferView": "bufferView_buffer_Torus_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 3456,
+            "max": [
+                2303
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "animations": {
+        "Icosphere|IcosphereAction": {
+            "channels": [
+                {
+                    "sampler": "IcosphereAction_node_Icosphere_translation_sampler",
+                    "target": {
+                        "id": "node_Icosphere",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "IcosphereAction_node_Icosphere_rotation_sampler",
+                    "target": {
+                        "id": "node_Icosphere",
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": "IcosphereAction_node_Icosphere_scale_sampler",
+                    "target": {
+                        "id": "node_Icosphere",
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "IcosphereAction",
+            "parameters": {
+                "IcosphereAction_node_Icosphere_rotation_parameter": "accessor_buffer_Icosphere_IcosphereAction_1",
+                "IcosphereAction_node_Icosphere_scale_parameter": "accessor_buffer_Icosphere_IcosphereAction_2",
+                "IcosphereAction_node_Icosphere_translation_parameter": "accessor_buffer_Icosphere_IcosphereAction_0",
+                "IcosphereAction_time_parameter": "accessor_buffer_IcosphereAction_time_0"
+            },
+            "samplers": {
+                "IcosphereAction_node_Icosphere_rotation_sampler": {
+                    "input": "IcosphereAction_time_parameter",
+                    "interpolation": "LINEAR",
+                    "output": "IcosphereAction_node_Icosphere_rotation_parameter"
+                },
+                "IcosphereAction_node_Icosphere_scale_sampler": {
+                    "input": "IcosphereAction_time_parameter",
+                    "interpolation": "LINEAR",
+                    "output": "IcosphereAction_node_Icosphere_scale_parameter"
+                },
+                "IcosphereAction_node_Icosphere_translation_sampler": {
+                    "input": "IcosphereAction_time_parameter",
+                    "interpolation": "LINEAR",
+                    "output": "IcosphereAction_node_Icosphere_translation_parameter"
+                }
+            }
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cylinder_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 4608,
+            "byteOffset": 4400,
+            "target": 34962
+        },
+        "bufferView_buffer_Cylinder_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 744,
+            "byteOffset": 9008,
+            "target": 34963
+        },
+        "bufferView_buffer_Grid_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 3552,
+            "byteOffset": 9752,
+            "target": 34962
+        },
+        "bufferView_buffer_Grid_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 972,
+            "byteOffset": 13304,
+            "target": 34963
+        },
+        "bufferView_buffer_IcosphereAction_time_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 400,
+            "byteOffset": 0
+        },
+        "bufferView_buffer_Icosphere_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 5760,
+            "byteOffset": 14276,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 480,
+            "byteOffset": 20036,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere_IcosphereAction_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1200,
+            "byteOffset": 400
+        },
+        "bufferView_buffer_Icosphere_IcosphereAction_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 1600,
+            "byteOffset": 1600
+        },
+        "bufferView_buffer_Icosphere_IcosphereAction_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 1200,
+            "byteOffset": 3200
+        },
+        "bufferView_buffer_Sphere_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 47616,
+            "byteOffset": 20516,
+            "target": 34962
+        },
+        "bufferView_buffer_Sphere_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 5760,
+            "byteOffset": 68132,
+            "target": 34963
+        },
+        "bufferView_buffer_Torus_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 55296,
+            "byteOffset": 73892,
+            "target": 34962
+        },
+        "bufferView_buffer_Torus_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 6912,
+            "byteOffset": 129188,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 136100,
+            "type": "arraybuffer",
+            "uri": "buffer_combined.bin"
+        }
+    },
+    "cameras": {
+        "camera_Camera": {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {
+                "light_Lamp": {
+                    "name": "Lamp",
+                    "point": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "constantAttenuation": 1,
+                        "linearAttenuation": 0,
+                        "quadraticAttenuation": 0.03333335240683057
+                    },
+                    "type": "point"
+                },
+                "light_Spot": {
+                    "name": "Spot",
+                    "spot": {
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "constantAttenuation": 1.0,
+                        "fallOffAngle": 3.14159265,
+                        "fallOffExponent": 0.0,
+                        "linearAttenuation": 0,
+                        "quadraticAttenuation": 0.04
+                    },
+                    "type": "spot"
+                }
+            }
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_tex.png": {
+            "uri": "tex.png"
+        }
+    },
+    "materials": {
+        "material_Material.001": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.64000004529953,
+                            0.12463463842868805,
+                            0.022575275972485542,
+                            1.0
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Material.001"
+        },
+        "material_Material.002": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Texture",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Material.002"
+        },
+        "material_Material.003": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.0017647634958848357,
+                            0.0,
+                            0.64000004529953,
+                            1.0
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Material.003"
+        },
+        "material_Material.004": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.7521495819091797,
+                            0.0,
+                            0.7476179003715515,
+                            0.30841124057769775
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.30841124057769775
+                        ],
+                        "shininess": 33,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 0.30841124057769775,
+                        "transparent": true
+                    }
+                }
+            },
+            "name": "Material.004"
+        }
+    },
+    "meshes": {
+        "mesh_Cylinder": {
+            "name": "Cylinder",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cylinder_1",
+                        "POSITION": "accessor_buffer_Cylinder_0"
+                    },
+                    "indices": "accessor_buffer_Cylinder_2",
+                    "material": "material_Material.002",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Grid": {
+            "name": "Grid",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Grid_1",
+                        "POSITION": "accessor_buffer_Grid_0"
+                    },
+                    "indices": "accessor_buffer_Grid_2",
+                    "material": "material_Material.001",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere": {
+            "name": "Icosphere",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere_1",
+                        "POSITION": "accessor_buffer_Icosphere_0"
+                    },
+                    "indices": "accessor_buffer_Icosphere_2",
+                    "material": "material_Material.004",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Sphere": {
+            "name": "Sphere",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Sphere_1",
+                        "POSITION": "accessor_buffer_Sphere_0"
+                    },
+                    "indices": "accessor_buffer_Sphere_2",
+                    "material": "material_Material.003",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Torus": {
+            "name": "Torus",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Torus_1",
+                        "POSITION": "accessor_buffer_Torus_0"
+                    },
+                    "indices": "accessor_buffer_Torus_2",
+                    "material": "material_Material.002",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Camera": {
+            "camera": "camera_Camera",
+            "children": [],
+            "matrix": [
+                0.6859206557273865,
+                0.7276763319969177,
+                0.0,
+                0.0,
+                -0.32401347160339355,
+                0.305420845746994,
+                0.8953956365585327,
+                0.0,
+                0.6515582203865051,
+                -0.6141703724861145,
+                0.44527140259742737,
+                0.0,
+                7.481131553649902,
+                -6.5076398849487305,
+                5.34366512298584,
+                1.0
+            ],
+            "name": "Camera"
+        },
+        "node_Cylinder": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                5.117798328399658,
+                0.0,
+                0.9738770723342896,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cylinder"
+            ],
+            "name": "Cylinder"
+        },
+        "node_Grid": {
+            "children": [],
+            "matrix": [
+                7.244319915771484,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                7.244319915771484,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                7.244319915771484,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Grid"
+            ],
+            "name": "Grid"
+        },
+        "node_Icosphere": {
+            "children": [],
+            "matrix": [
+                1.5052348375320435,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.5052348375320435,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.5052348375320435,
+                0.0,
+                -6.423705101013184,
+                -1.239048957824707,
+                2.377476930618286,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere"
+            ],
+            "name": "Icosphere"
+        },
+        "node_Lamp": {
+            "children": [],
+            "extensions": {
+                "KHR_materials_common": {
+                    "light": "light_Lamp"
+                }
+            },
+            "matrix": [
+                -0.29086464643478394,
+                0.9551711678504944,
+                -0.05518905818462372,
+                0.0,
+                -0.7711008191108704,
+                -0.1998833566904068,
+                0.6045247316360474,
+                0.0,
+                0.5663931965827942,
+                0.21839119493961334,
+                0.7946722507476807,
+                0.0,
+                4.076245307922363,
+                1.0054539442062378,
+                5.903861999511719,
+                1.0
+            ],
+            "name": "Lamp"
+        },
+        "node_Sphere": {
+            "children": [],
+            "matrix": [
+                2.163090944290161,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.163090944290161,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.163090944290161,
+                0.0,
+                1.2489436864852905,
+                3.791929244995117,
+                1.8084570169448853,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Sphere"
+            ],
+            "name": "Sphere"
+        },
+        "node_Spot": {
+            "children": [],
+            "extensions": {
+                "KHR_materials_common": {
+                    "light": "light_Spot"
+                }
+            },
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.16181537508964539,
+                0.0,
+                21.992931365966797,
+                1.0
+            ],
+            "name": "Spot"
+        },
+        "node_Torus": {
+            "children": [],
+            "matrix": [
+                3.025172710418701,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                3.025172710418701,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                3.025172710418701,
+                0.0,
+                -3.6933276653289795,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Torus"
+            ],
+            "name": "Torus"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": "camera_Camera",
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_Icosphere",
+                "node_Sphere",
+                "node_Spot",
+                "node_Torus",
+                "node_Cylinder",
+                "node_Grid",
+                "node_Lamp",
+                "node_Camera"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Texture": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_tex.png"
+        }
+    }
+}
