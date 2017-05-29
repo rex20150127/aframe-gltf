@@ -1,0 +1,71 @@
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="google.com" resolutions="1x" timestamp="1496039920387">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="taketori.css" crc="3949100683" ref="index"/>
+    <file name="index.css" crc="3882640556" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="168988563" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="webpro.js" crc="3848665353" ref="index"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
+    <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="taketori.js" crc="4106779027" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="bk.jpg" crc="3906599366" ref="index"/>
+    <file name="lolo.png" crc="93789071" seo="true" ref="index"/>
+    <file name="rew.jpg" crc="131141123" seo="true" ref="index"/>
+    <file name="oem.png" crc="342878001" seo="true" ref="index"/>
+    <file name="logoword.png" crc="3783077921" seo="true" ref="index"/>
+    <file name="cowweb.png" crc="22880332" seo="true" ref="index"/>
+    <file name="aa1.png" crc="4219770085" seo="true" ref="index"/>
+    <file name="pthibo01.jpg" crc="132495408" seo="true" ref="index"/>
+    <file name="pthibo012.jpg" crc="4220465819" seo="true" ref="index"/>
+    <file name="pthibo03.jpg" crc="57309751" seo="true" ref="index"/>
+    <file name="pthibo02.jpg" crc="462177580" seo="true" ref="index"/>
+    <file name="hfgt.jpg" crc="4127601812" seo="true" ref="index"/>
+    <file name="256.png" crc="502637865" seo="true" ref="index"/>
+    <file name="googlemaps.png" crc="4266518619" seo="true" ref="index"/>
+    <file name="258.jpg" crc="494675429" seo="true" ref="index"/>
+    <file name="aqw02.png" crc="3932742620" seo="true" ref="index"/>
+    <file name="a02.png" crc="321042812" seo="true" ref="index"/>
+    <file name="a03.png" crc="270854435" seo="true" ref="index"/>
+    <file name="aqw01.png" crc="507088681" seo="true" ref="index"/>
+    <file name="aqw03.png" crc="3888026638" seo="true" ref="index"/>
+    <file name="a01.png" crc="253306012" seo="true" ref="index"/>
+    <file name="line_logo.png" crc="4084736308" seo="true" ref="index"/>
+    <file name="likefb.png" crc="298248907" seo="true" ref="index"/>
+    <file name="menu1.png" crc="299567212" seo="true" ref="index"/>
+    <file name="menu2.png" crc="130310938" seo="true" ref="index"/>
+    <file name="menu4.jpg" crc="316917599" seo="true" ref="index"/>
+    <file name="menu5.jpg" crc="4213718463" seo="true" ref="index"/>
+    <file name="menu6.jpg" crc="3909304333" seo="true" ref="index"/>
+    <file name="menu7.png" crc="4237302720" seo="true" ref="index"/>
+    <file name="menu8.png" crc="498603636" seo="true" ref="index"/>
+    <file name="menu9.png" crc="206515099" seo="true" ref="index"/>
+    <file name="menu10.png" crc="3915111966" seo="true" ref="index"/>
+    <file name="menu11.png" crc="4002359706" seo="true" ref="index"/>
+    <file name="menu12.png" crc="23899121" seo="true" ref="index"/>
+    <file name="menu13.jpg" crc="4146825128" seo="true" ref="index"/>
+    <file name="menu3.jpg" crc="307713384" seo="true" ref="index"/>
+    <file name="a04.jpg" crc="444131771" seo="true" ref="index"/>
+    <file name="menu.jpg" crc="87124889" seo="true" ref="index"/>
+    <file name="img01.jpg" crc="274259926" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="img02.jpg" crc="288855221" seo="true" ref="index"/>
+    <file name="img03.jpg" crc="172686962" seo="true" ref="index"/>
+    <file name="img04.jpg" crc="4209706596" seo="true" ref="index"/>
+    <file name="img05.jpg" crc="105935809" seo="true" ref="index"/>
+    <file name="img06.jpg" crc="248686363" seo="true" ref="index"/>
+    <file name="img07.jpg" crc="332733219" seo="true" ref="index"/>
+    <file name="img08.jpg" crc="505442202" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+  </folder>
+  <file name="index.html" crc="296963807" seo="true" mt="1496039836334" redirect="true"/>
+</manifest>
