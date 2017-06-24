@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ECS - A-Frame School</title>
-    <meta name="description" content="ECS - A-Frame School">
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <title>glTF Model - A-Frame School</title>
+    <meta name="description" content="glTF Model - A-Frame School">
+    <script src="https://rawgit.com/aframevr/aframe/b395ea0/dist/aframe-master.min.js"></script>
     <script src="https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js"></script>
   </head>
   <body>
-  <a-scene>
-    <a-collada-model src="c4ddae1.4.dae"></a-collada-model>
-    <a-light type="point" color="blue" position="0 5 3"></a-light>
-  <a-entity>
-      <a-sphere color="yellow" radius="5" scale="0.2 0.5 0.2"></a-sphere>
-      <a-animation attribute="position" repeat="indefinite" from="3 0 0" to="2 8 -8"></a-animation>
-		 
- </a-entity>
-    
-</a-scene>
-</body>
-    
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="c4D" src="c4ddae1.4.dae"></a-asset-item>
+      </a-assets>
+      
+      <a-gltf-model src="#C4d" animation-mixer></a-gltf-model>
+    </a-scene>
+  </body>
 </html>
