@@ -7,18 +7,7 @@
 <body>
 	
   <a-scene>
-	  <script src="https://threejs.org/build/three.js"></script>
-	  <script>
-	  var points = [];
-for ( var i = 0; i < 10; i ++ ) {
-	points.push( new THREE.Vector2( Math.sin( i * 0.2 ) * 10 + 5, ( i - 5 ) * 2 ) );
-}
-var geometry = new THREE.LatheGeometry( points );
-var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
-var lathe = new THREE.Mesh( geometry, material );
-scene.add( lathe ); 
-	  </script>
-  <a-collada-model src="c4ddae1.4.dae"></a-collada-model>
+    <a-collada-model src="c4ddae1.4.dae"></a-collada-model>
     <a-light type="point" color="blue" position="0 5 3"></a-light>
   <a-entity>
       <a-sphere color="yellow" radius="5" scale="0.2 0.5 0.2"></a-sphere>
