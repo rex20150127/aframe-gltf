@@ -1,18 +1,19 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>glTF Model - A-Frame School</title>
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-
+    <meta name="description" content="glTF Model - A-Frame School">
+    <script src="https://rawgit.com/aframevr/aframe/b395ea0/dist/aframe-master.min.js"></script>
     <script src="https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js"></script>
   </head>
   <body>
     <a-scene>
       <a-assets>
-        <a-asset-item id="c4D" src="zsx.gltf"></a-asset-item>
+        <a-asset-item id="cityModel" src="zsx.gltf"></a-asset-item>
       </a-assets>
       
-      <a-gltf-model src="#C4d" animation-mixer></a-gltf-model>
+      <a-gltf-model src="#cityModel" animation-mixer></a-gltf-model>
     </a-scene>
   </body>
 </html>
