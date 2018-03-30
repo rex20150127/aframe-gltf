@@ -1,0 +1,58 @@
+﻿<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@3.2.1/dist/aframe-animation-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.ocean@%5E3.5.x/dist/aframe-extras.ocean.min.js"></script>
+    <script src="https://unpkg.com/aframe-gradient-sky@1.0.4/dist/gradientsky.min.js"></script>
+<body>
+<a-scene fog="type: linear; color: #15202c; far: 55; near: 0">
+  <a-assets>
+    <a-asset-item id="tree-obj" src="model/goothu.obj"></a-asset-item>
+    <a-asset-item id="tree-mtl" src="model/goothu.mtl"></a-asset-item>
+    <a-asset-item id="ship-obj" src="model/ship.obj"></a-asset-item>
+    <a-asset-item id="ship-mtl" src="model/ship.mtl"></a-asset-item>
+  </a-assets>
+  <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+
+<a-camera position="0 1 0">
+  <a-entity obj-model="obj: #ship-obj; mtl: #ship-mtl"position="0 -0.8 0.6"></a-entity></a-camera>
+
+  <a-sky color="#15202c" material="fog: false"></a-sky>
+
+
+  <a-entity id="ocean" ocean="density: 300; width: 1800; depth: 800; speed: 0.01"
+                material="color: #31240c; opacity: 0.95; metalness: 0; roughness: 0"
+                rotation="-90 0 0"></a-entity>
+
+
+  <a-entity id="sphere" geometry="primitive: sphere"
+                material="color: #fff992; shader: flat"
+                position="12 10 -5"
+                scale="0.5 0.5 0.5"
+                light="type: point; intensity: 0.5"></a-entity>
+
+
+
+  <a-assets>
+    <img id="my-texture" src="texture/thin.png">
+  </a-assets>
+  <a-curvedimage src="#my-texture" height ="3" radius="5" theta-length="45" position="0 3 0" scale="1 1 1" rotation="0 200 0"></a-curvedimage>
+
+  <a-assets>
+    <img id="tree1" src="texture/tree02.png">
+  </a-assets>
+  <a-curvedimage src="#tree1" height ="3" radius="1" theta-length="45" color="#15202c" position="7.514 5 2.606" scale="3 3 3" rotation="0 27 0"></a-curvedimage>
+
+ <a-assets>
+    <img id="tree1" src="texture/tree02.png">
+  </a-assets>
+  <a-curvedimage src="#tree1" height ="3" radius="1" theta-length="45" color="#15202c" position="8.276 5 7" scale="3 3 3" rotation="0 30 0"></a-curvedimage>
+
+
+<a-entity id="snow" particle-system="preset: snow; color: #24CAFF; material="fog: true"; particleCount: 100000"></a-entity>
+
+<a-sound src="src: url(sound/MapleBridgeOK.mp3)" autoplay="true"></a-sound>
+</a-scene>
+</body>
+</html>
