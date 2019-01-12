@@ -1,0 +1,42 @@
+﻿<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/IdeaSpaceVR/aframe-particle-system-component/master/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.ocean@%5E3.5.x/dist/aframe-extras.ocean.min.js"></script>
+
+
+  </head>
+  <body>
+    <a-scene fog="type: linear; color: #97cbff; far: 20; near: 0">
+<a-entity particle-system="preset: snow"></a-entity>
+
+<a-sky color="#003e3e"></a-sky>
+
+<a-entity light="color: #ffffff; intensity: 1" position="-1 1 0"></a-entity>
+
+<a-entity light="color: #ffffff; intensity: 0.5" position="1 -1 0"></a-entity>
+
+
+<a-assets>     
+   <a-asset-item id="model" src="gltf/boxdog_blender3.gltf"></a-asset-item>  
+</a-assets>    
+
+<a-entity gltf-model="#model" position="-1 0 -0.5" rotation="0 20 0"></a-entity>
+
+
+<a-entity id="ocean" 
+          ocean="density: 50; 
+          width: 50; 
+          depth: 50; 
+          speed: 1"  
+          material="color: #004b97; 
+          opacity: 0.75; 
+          metalness: 0; 
+          roughness: 1"  
+          rotation="-90 0 0">
+</a-entity>
+
+  </a-scene>
+  </body>
+</html>
